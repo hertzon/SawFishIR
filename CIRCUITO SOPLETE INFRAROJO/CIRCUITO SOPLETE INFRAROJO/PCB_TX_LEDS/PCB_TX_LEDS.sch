@@ -1,0 +1,245 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:PCB_TX_LEDS-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X02 P1
+U 1 1 5882DED5
+P 1500 1500
+F 0 "P1" H 1500 1650 50  0000 C CNN
+F 1 "Bat" V 1600 1500 50  0000 C CNN
+F 2 "Connectors:AK300-2" H 1500 1500 50  0001 C CNN
+F 3 "" H 1500 1500 50  0000 C CNN
+	1    1500 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R1
+U 1 1 58831F38
+P 2100 1250
+F 0 "R1" V 2180 1250 50  0000 C CNN
+F 1 "1k" V 2100 1250 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2030 1250 50  0001 C CNN
+F 3 "" H 2100 1250 50  0000 C CNN
+	1    2100 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-RESCUE-PCB_TX D1
+U 1 1 58831F3F
+P 2100 1700
+F 0 "D1" H 2100 1800 50  0000 C CNN
+F 1 "Test" H 2100 1600 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 2100 1700 50  0001 C CNN
+F 3 "" H 2100 1700 50  0000 C CNN
+	1    2100 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 1400 2100 1500
+$Comp
+L R R2
+U 1 1 58E3B995
+P 2400 1250
+F 0 "R2" V 2480 1250 50  0000 C CNN
+F 1 "1k" V 2400 1250 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2330 1250 50  0001 C CNN
+F 3 "" H 2400 1250 50  0000 C CNN
+	1    2400 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-RESCUE-PCB_TX D2
+U 1 1 58E3B99B
+P 2400 1700
+F 0 "D2" H 2400 1800 50  0000 C CNN
+F 1 "Test" H 2400 1600 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 2400 1700 50  0001 C CNN
+F 3 "" H 2400 1700 50  0000 C CNN
+	1    2400 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 1400 2400 1500
+$Comp
+L R R3
+U 1 1 58E3BE09
+P 2700 1250
+F 0 "R3" V 2780 1250 50  0000 C CNN
+F 1 "1k" V 2700 1250 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2630 1250 50  0001 C CNN
+F 3 "" H 2700 1250 50  0000 C CNN
+	1    2700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-RESCUE-PCB_TX D3
+U 1 1 58E3BE0F
+P 2700 1700
+F 0 "D3" H 2700 1800 50  0000 C CNN
+F 1 "Test" H 2700 1600 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 2700 1700 50  0001 C CNN
+F 3 "" H 2700 1700 50  0000 C CNN
+	1    2700 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 1400 2700 1500
+$Comp
+L R R4
+U 1 1 58E3BE16
+P 3000 1250
+F 0 "R4" V 3080 1250 50  0000 C CNN
+F 1 "1k" V 3000 1250 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2930 1250 50  0001 C CNN
+F 3 "" H 3000 1250 50  0000 C CNN
+	1    3000 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-RESCUE-PCB_TX D4
+U 1 1 58E3BE1C
+P 3000 1700
+F 0 "D4" H 3000 1800 50  0000 C CNN
+F 1 "Test" H 3000 1600 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 3000 1700 50  0001 C CNN
+F 3 "" H 3000 1700 50  0000 C CNN
+	1    3000 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3000 1400 3000 1500
+$Comp
+L R R5
+U 1 1 58E3C314
+P 3300 1250
+F 0 "R5" V 3380 1250 50  0000 C CNN
+F 1 "1k" V 3300 1250 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3230 1250 50  0001 C CNN
+F 3 "" H 3300 1250 50  0000 C CNN
+	1    3300 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-RESCUE-PCB_TX D5
+U 1 1 58E3C31A
+P 3300 1700
+F 0 "D5" H 3300 1800 50  0000 C CNN
+F 1 "Test" H 3300 1600 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 3300 1700 50  0001 C CNN
+F 3 "" H 3300 1700 50  0000 C CNN
+	1    3300 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 1400 3300 1500
+$Comp
+L R R6
+U 1 1 58E3C321
+P 3600 1250
+F 0 "R6" V 3680 1250 50  0000 C CNN
+F 1 "1k" V 3600 1250 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3530 1250 50  0001 C CNN
+F 3 "" H 3600 1250 50  0000 C CNN
+	1    3600 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-RESCUE-PCB_TX D6
+U 1 1 58E3C327
+P 3600 1700
+F 0 "D6" H 3600 1800 50  0000 C CNN
+F 1 "Test" H 3600 1600 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 3600 1700 50  0001 C CNN
+F 3 "" H 3600 1700 50  0000 C CNN
+	1    3600 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3600 1400 3600 1500
+$Comp
+L R R7
+U 1 1 58E3C32E
+P 3900 1250
+F 0 "R7" V 3980 1250 50  0000 C CNN
+F 1 "1k" V 3900 1250 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3830 1250 50  0001 C CNN
+F 3 "" H 3900 1250 50  0000 C CNN
+	1    3900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-RESCUE-PCB_TX D7
+U 1 1 58E3C334
+P 3900 1700
+F 0 "D7" H 3900 1800 50  0000 C CNN
+F 1 "Test" H 3900 1600 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 3900 1700 50  0001 C CNN
+F 3 "" H 3900 1700 50  0000 C CNN
+	1    3900 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 1400 3900 1500
+Wire Wire Line
+	1700 1450 1700 1100
+Wire Wire Line
+	1700 1100 3900 1100
+Connection ~ 2100 1100
+Connection ~ 2400 1100
+Connection ~ 2700 1100
+Connection ~ 3000 1100
+Connection ~ 3300 1100
+Connection ~ 3600 1100
+Wire Wire Line
+	1700 1550 1700 1900
+Wire Wire Line
+	1700 1900 3900 1900
+Connection ~ 2100 1900
+Connection ~ 2400 1900
+Connection ~ 2700 1900
+Connection ~ 3000 1900
+Connection ~ 3300 1900
+Connection ~ 3600 1900
+$EndSCHEMATC

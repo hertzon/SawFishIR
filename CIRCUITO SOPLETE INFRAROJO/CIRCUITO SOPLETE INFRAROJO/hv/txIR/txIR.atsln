@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "txIR", "txIR\txIR.cproj", "{59FD143D-2BC2-49EB-9BCD-5F708BFA5B06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59FD143D-2BC2-49EB-9BCD-5F708BFA5B06}.Debug|AVR.ActiveCfg = Debug|AVR
+		{59FD143D-2BC2-49EB-9BCD-5F708BFA5B06}.Debug|AVR.Build.0 = Debug|AVR
+		{59FD143D-2BC2-49EB-9BCD-5F708BFA5B06}.Release|AVR.ActiveCfg = Release|AVR
+		{59FD143D-2BC2-49EB-9BCD-5F708BFA5B06}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
