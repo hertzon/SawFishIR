@@ -15913,7 +15913,7 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <part name="R11" library="rcl" deviceset="R-EU_" device="0204/7" value="27"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="0204/7" value="27"/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="0204/7" value="27"/>
-<part name="C4" library="rcl" deviceset="CPOL-EU" device="140CLH-0810"/>
+<part name="C4" library="rcl" deviceset="CPOL-EU" device="140CLH-0810" value="10u"/>
 <part name="LED1" library="led" deviceset="LED" device="5MM"/>
 <part name="LED2" library="led" deviceset="LED" device="5MM"/>
 </parts>
@@ -16168,12 +16168,9 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <wire x1="182.88" y1="30.48" x2="190.5" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="30.48" x2="198.12" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="30.48" x2="205.74" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="30.48" x2="213.36" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="30.48" x2="213.36" y2="25.4" width="0.1524" layer="91"/>
 <junction x="149.86" y="30.48"/>
 <pinref part="LED10" gate="G$1" pin="A"/>
 <wire x1="205.74" y1="25.4" x2="205.74" y2="30.48" width="0.1524" layer="91"/>
-<junction x="205.74" y="30.48"/>
 <pinref part="LED9" gate="G$1" pin="A"/>
 <wire x1="198.12" y1="25.4" x2="198.12" y2="30.48" width="0.1524" layer="91"/>
 <junction x="198.12" y="30.48"/>
@@ -16288,8 +16285,6 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <wire x1="182.88" y1="2.54" x2="190.5" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="2.54" x2="198.12" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="2.54" x2="205.74" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="2.54" x2="213.36" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="2.54" x2="213.36" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="7.62" x2="160.02" y2="2.54" width="0.1524" layer="91"/>
 <junction x="160.02" y="2.54"/>
 <wire x1="167.64" y1="7.62" x2="167.64" y2="2.54" width="0.1524" layer="91"/>
@@ -16303,7 +16298,6 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <wire x1="198.12" y1="7.62" x2="198.12" y2="2.54" width="0.1524" layer="91"/>
 <junction x="198.12" y="2.54"/>
 <wire x1="205.74" y1="7.62" x2="205.74" y2="2.54" width="0.1524" layer="91"/>
-<junction x="205.74" y="2.54"/>
 <pinref part="Q2" gate="G$1" pin="D"/>
 <wire x1="149.86" y1="2.54" x2="127" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="127" y1="2.54" x2="127" y2="-2.54" width="0.1524" layer="91"/>
