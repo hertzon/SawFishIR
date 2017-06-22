@@ -18370,10 +18370,6 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <wire x1="-2.54" y1="-3.175" x2="-2.9718" y2="-2.3368" width="0.1524" layer="21"/>
 <wire x1="-3.81" y1="-3.4798" x2="-3.81" y2="-4.1656" width="0.1524" layer="21"/>
 <wire x1="3.81" y1="-3.4798" x2="3.81" y2="-4.1656" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="3.5052" x2="3.81" y2="9.525" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="3.5052" x2="-3.81" y2="9.525" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="9.525" x2="0" y2="8.255" width="0.1524" layer="21"/>
-<wire x1="0" y1="8.255" x2="3.81" y2="9.525" width="0.1524" layer="21"/>
 <wire x1="-2.54" y1="-3.175" x2="-2.54" y2="-2.921" width="0.1524" layer="21"/>
 <wire x1="5.461" y1="3.5052" x2="5.461" y2="2.159" width="0.1524" layer="21"/>
 <wire x1="5.461" y1="2.159" x2="6.3246" y2="2.159" width="0.1524" layer="21"/>
@@ -18560,7 +18556,7 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="M1206" value="1k"/>
-<part name="OK1" library="optocoupler" deviceset="MOCD20*M" device="" technology="7"/>
+<part name="MOC" library="optocoupler" deviceset="MOCD20*M" device="" technology="7" value=""/>
 <part name="T2" library="transistor-neu-to92" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT2222ALT1"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="M1206" value="150"/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
@@ -18644,8 +18640,8 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <instance part="GND10" gate="1" x="25.4" y="2.54"/>
 <instance part="P+11" gate="1" x="27.94" y="-5.08" rot="R180"/>
 <instance part="R4" gate="G$1" x="30.48" y="-10.16" rot="R90"/>
-<instance part="OK1" gate="A" x="68.58" y="-15.24"/>
-<instance part="OK1" gate="B" x="68.58" y="-33.02"/>
+<instance part="MOC" gate="A" x="68.58" y="-15.24"/>
+<instance part="MOC" gate="B" x="68.58" y="-33.02"/>
 <instance part="T2" gate="G$1" x="43.18" y="-27.94"/>
 <instance part="R5" gate="G$1" x="45.72" y="-7.62" rot="R90"/>
 <instance part="P+12" gate="1" x="45.72" y="0"/>
@@ -18953,7 +18949,7 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="OK1" gate="A" pin="C"/>
+<pinref part="MOC" gate="A" pin="C"/>
 <pinref part="T2" gate="G$1" pin="C"/>
 <wire x1="58.42" y1="-17.78" x2="45.72" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="-17.78" x2="45.72" y2="-22.86" width="0.1524" layer="91"/>
@@ -18961,7 +18957,7 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="OK1" gate="A" pin="A"/>
+<pinref part="MOC" gate="A" pin="A"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="-12.7" x2="58.42" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
@@ -18974,7 +18970,7 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 </net>
 <net name="AGND" class="0">
 <segment>
-<pinref part="OK1" gate="A" pin="EMIT"/>
+<pinref part="MOC" gate="A" pin="EMIT"/>
 <pinref part="AGND1" gate="VR1" pin="AGND"/>
 <wire x1="83.82" y1="-17.78" x2="76.2" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
@@ -19059,7 +19055,7 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <net name="N$12" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="OK1" gate="A" pin="COL"/>
+<pinref part="MOC" gate="A" pin="COL"/>
 <wire x1="81.28" y1="-12.7" x2="76.2" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="T3" gate="G$1" pin="B"/>
 <wire x1="81.28" y1="-12.7" x2="96.52" y2="-12.7" width="0.1524" layer="91"/>

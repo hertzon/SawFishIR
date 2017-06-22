@@ -18527,7 +18527,7 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="22p"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="7805" library="v-reg" deviceset="78LXX" device=""/>
-<part name="D1" library="diode" deviceset="CGRM400*-G" device="" technology="7"/>
+<part name="D1" library="diode" deviceset="CGRM400*-G" device="" technology="7" value="d1"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+12V" device=""/>
@@ -18595,6 +18595,10 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <part name="GND" library="wirepad" deviceset="SMD5" device=""/>
 <part name="HV1" library="wirepad" deviceset="SMD5" device=""/>
 <part name="HV2" library="wirepad" deviceset="SMD5" device=""/>
+<part name="P+18" library="supply1" deviceset="VCC" device=""/>
+<part name="AGND7" library="supply1" deviceset="AGND" device=""/>
+<part name="BATHV-" library="wirepad" deviceset="SMD5" device=""/>
+<part name="BATHV+" library="wirepad" deviceset="SMD5" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18677,6 +18681,10 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <instance part="GND" gate="1" x="-50.8" y="78.74" rot="R270"/>
 <instance part="HV1" gate="1" x="101.6" y="2.54" rot="R270"/>
 <instance part="HV2" gate="1" x="106.68" y="-5.08" rot="R270"/>
+<instance part="P+18" gate="VCC" x="114.3" y="-17.78"/>
+<instance part="AGND7" gate="VR1" x="114.3" y="-40.64"/>
+<instance part="BATHV-" gate="1" x="114.3" y="-35.56" rot="R270"/>
+<instance part="BATHV+" gate="1" x="114.3" y="-30.48" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -18998,6 +19006,10 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <pinref part="AGND6" gate="VR1" pin="AGND"/>
 <wire x1="127" y1="58.42" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="AGND7" gate="VR1" pin="AGND"/>
+<pinref part="BATHV-" gate="1" pin="P"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -19037,6 +19049,11 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="P+16" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="P+18" gate="VCC" pin="VCC"/>
+<pinref part="BATHV+" gate="1" pin="P"/>
+<wire x1="114.3" y1="-27.94" x2="114.3" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
