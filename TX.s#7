@@ -16027,13 +16027,6 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <wire x1="-38.1" y1="78.74" x2="-27.94" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PC6(/RESET)"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="78.74" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -16112,6 +16105,12 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <pinref part="PRG" gate="G$1" pin="5"/>
 <wire x1="78.74" y1="101.6" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
 <label x="81.28" y="101.6" size="1.016" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PC6(/RESET)"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="78.74" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
+<label x="45.72" y="78.74" size="1.016" layer="95"/>
 </segment>
 </net>
 </nets>

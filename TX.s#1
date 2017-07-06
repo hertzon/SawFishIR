@@ -15913,7 +15913,7 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <part name="R11" library="rcl" deviceset="R-EU_" device="0204/7" value="27"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="0204/7" value="27"/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="0204/7" value="27"/>
-<part name="C4" library="rcl" deviceset="CPOL-EU" device="140CLH-0810"/>
+<part name="C4" library="rcl" deviceset="CPOL-EU" device="140CLH-0810" value="10u"/>
 <part name="LED1" library="led" deviceset="LED" device="5MM"/>
 <part name="LED2" library="led" deviceset="LED" device="5MM"/>
 </parts>

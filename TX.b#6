@@ -28,7 +28,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -72,10 +72,13 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="80" y2="0" width="0" layer="20"/>
-<wire x1="80" y1="0" x2="80" y2="50" width="0" layer="20"/>
-<wire x1="80" y1="50" x2="0" y2="50" width="0" layer="20"/>
-<wire x1="0" y1="50" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="80" y2="0" width="0.4064" layer="20"/>
+<wire x1="80" y1="0" x2="80" y2="50" width="0.4064" layer="20"/>
+<wire x1="80" y1="50" x2="0" y2="50" width="0.4064" layer="20"/>
+<wire x1="0" y1="50" x2="0" y2="0" width="0.4064" layer="20"/>
+<text x="45.339" y="43.688" size="2.54" layer="16" rot="MR0">SAWFISH</text>
+<text x="54.356" y="4.064" size="2.54" layer="16" rot="MR0">TX</text>
+<text x="46.228" y="39.243" size="2.54" layer="16" rot="MR0">V0.0.1</text>
 </plain>
 <libraries>
 <library name="rcl">
