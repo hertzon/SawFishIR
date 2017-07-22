@@ -18403,6 +18403,7 @@ naming: grid - package width</description>
 <part name="C4" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="330u/16"/>
 <part name="C1" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="330u/16"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="330u/16"/>
+<part name="C6" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="330u/16"/>
 </parts>
 <sheets>
 <sheet>
@@ -18480,6 +18481,7 @@ naming: grid - package width</description>
 <instance part="C4" gate="G$1" x="-50.8" y="53.34"/>
 <instance part="C1" gate="G$1" x="-15.24" y="55.88"/>
 <instance part="C2" gate="G$1" x="-2.54" y="55.88"/>
+<instance part="C6" gate="G$1" x="71.12" y="-7.62"/>
 </instances>
 <busses>
 </busses>
@@ -18723,6 +18725,10 @@ naming: grid - package width</description>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="AGND5" gate="VR1" pin="AGND"/>
 <wire x1="86.36" y1="-25.4" x2="86.36" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="-"/>
+<wire x1="71.12" y1="-12.7" x2="71.12" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-22.86" x2="86.36" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="86.36" y="-22.86"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="A" pin="+IN"/>
@@ -18862,6 +18868,9 @@ naming: grid - package width</description>
 <wire x1="116.84" y1="-20.32" x2="116.84" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="-12.7" x2="106.68" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="-12.7" x2="106.68" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="+"/>
+<wire x1="86.36" y1="-2.54" x2="71.12" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-2.54" x2="71.12" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">

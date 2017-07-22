@@ -18400,10 +18400,10 @@ naming: grid - package width</description>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="AGND1" library="supply1" deviceset="AGND" device=""/>
 <part name="C5" library="capacitor-wima" deviceset="C" device="2.5/2" value="104"/>
-<part name="C4" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="330u/16"/>
-<part name="C1" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="330u/16"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="330u/16"/>
 <part name="C6" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="330u/16"/>
+<part name="C7" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="330/16"/>
+<part name="C1" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="330/16"/>
 </parts>
 <sheets>
 <sheet>
@@ -18478,10 +18478,10 @@ naming: grid - package width</description>
 <instance part="LED1" gate="G$1" x="137.16" y="-2.54"/>
 <instance part="AGND1" gate="VR1" x="154.94" y="-12.7"/>
 <instance part="C5" gate="G$1" x="-2.54" y="73.66"/>
-<instance part="C4" gate="G$1" x="-50.8" y="53.34"/>
-<instance part="C1" gate="G$1" x="-15.24" y="55.88"/>
 <instance part="C2" gate="G$1" x="-2.54" y="55.88"/>
 <instance part="C6" gate="G$1" x="71.12" y="-7.62"/>
+<instance part="C7" gate="G$1" x="-50.8" y="53.34"/>
+<instance part="C1" gate="G$1" x="-15.24" y="55.88"/>
 </instances>
 <busses>
 </busses>
@@ -18538,16 +18538,16 @@ naming: grid - package width</description>
 <pinref part="LED1" gate="G$1" pin="C"/>
 </segment>
 <segment>
-<pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="C4" gate="G$1" pin="-"/>
-</segment>
-<segment>
 <pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="C1" gate="G$1" pin="-"/>
 <wire x1="-15.24" y1="48.26" x2="-15.24" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="-"/>
 <wire x1="-15.24" y1="50.8" x2="-2.54" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="-"/>
 <junction x="-15.24" y="50.8"/>
+</segment>
+<segment>
+<pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="C7" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -18573,7 +18573,7 @@ naming: grid - package width</description>
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+12V"/>
-<pinref part="C4" gate="G$1" pin="+"/>
+<pinref part="C7" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -18650,10 +18650,10 @@ naming: grid - package width</description>
 </segment>
 <segment>
 <pinref part="P+8" gate="1" pin="+5V"/>
-<pinref part="C1" gate="G$1" pin="+"/>
 <wire x1="-15.24" y1="60.96" x2="-15.24" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="+"/>
 <wire x1="-15.24" y1="58.42" x2="-2.54" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="+"/>
 <junction x="-15.24" y="58.42"/>
 </segment>
 </net>

@@ -18334,7 +18334,7 @@ naming: grid - package width</description>
 </class>
 </classes>
 <parts>
-<part name="IC1" library="atmel" deviceset="MEGA8" device="-AI"/>
+<part name="ATMEGA88P" library="atmel" deviceset="MEGA8" device="-AI"/>
 <part name="D1" library="diode" deviceset="CGRM400*-G" device="" technology="7" value="d1"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -18410,7 +18410,7 @@ naming: grid - package width</description>
 <plain>
 </plain>
 <instances>
-<instance part="IC1" gate="G$1" x="71.12" y="50.8"/>
+<instance part="ATMEGA88P" gate="G$1" x="71.12" y="50.8"/>
 <instance part="D1" gate="G$1" x="-40.64" y="76.2"/>
 <instance part="GND2" gate="1" x="-25.4" y="60.96"/>
 <instance part="GND3" gate="1" x="-50.8" y="66.04"/>
@@ -18504,7 +18504,7 @@ naming: grid - package width</description>
 <pinref part="GND" gate="1" pin="P"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="GND"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="48.26" y1="71.12" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
 </segment>
@@ -18578,7 +18578,7 @@ naming: grid - package width</description>
 </net>
 <net name="RESET" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC6(/RESET)"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="PC6(/RESET)"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="76.2" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
 <label x="43.18" y="76.2" size="0.8128" layer="95"/>
@@ -18604,19 +18604,19 @@ naming: grid - package width</description>
 <junction x="-12.7" y="76.2"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="AVCC"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="AVCC"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
 <wire x1="48.26" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="66.04" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="AREF"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="AREF"/>
 <wire x1="48.26" y1="68.58" x2="48.26" y2="66.04" width="0.1524" layer="91"/>
 <junction x="48.26" y="66.04"/>
 </segment>
 <segment>
 <pinref part="P+6" gate="1" pin="+5V"/>
-<pinref part="IC1" gate="G$1" pin="VCC@2"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="VCC@2"/>
 <wire x1="38.1" y1="38.1" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="VCC@1"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="VCC@1"/>
 <wire x1="48.26" y1="40.64" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
 <junction x="48.26" y="38.1"/>
 </segment>
@@ -18677,7 +18677,7 @@ naming: grid - package width</description>
 <label x="-38.1" y="7.62" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD7(AIN1)"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="PD7(AIN1)"/>
 <wire x1="96.52" y1="35.56" x2="99.06" y2="35.56" width="0.1524" layer="91"/>
 <label x="99.06" y="35.56" size="1.016" layer="95"/>
 </segment>
@@ -18689,14 +18689,14 @@ naming: grid - package width</description>
 <label x="12.7" y="2.54" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB0(ICP)"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="PB0(ICP)"/>
 <wire x1="96.52" y1="30.48" x2="99.06" y2="30.48" width="0.1524" layer="91"/>
 <label x="99.06" y="30.48" size="0.8128" layer="95"/>
 </segment>
 </net>
 <net name="IGN" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD5(T1)"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="PD5(T1)"/>
 <wire x1="96.52" y1="40.64" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
 <label x="99.06" y="40.64" size="1.016" layer="95"/>
 </segment>
@@ -18715,7 +18715,7 @@ naming: grid - package width</description>
 <label x="30.48" y="-17.78" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD2(INT0)"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="PD2(INT0)"/>
 <wire x1="96.52" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
 <label x="99.06" y="48.26" size="1.016" layer="95"/>
 </segment>
@@ -18792,14 +18792,14 @@ naming: grid - package width</description>
 <label x="63.5" y="104.14" size="0.8128" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB3(MOSI/OC2)"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="PB3(MOSI/OC2)"/>
 <wire x1="96.52" y1="22.86" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
 <label x="99.06" y="22.86" size="0.8128" layer="95"/>
 </segment>
 </net>
 <net name="PB4" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB4(MISO)"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="PB4(MISO)"/>
 <wire x1="96.52" y1="20.32" x2="99.06" y2="20.32" width="0.1524" layer="91"/>
 <label x="99.06" y="20.32" size="0.8128" layer="95"/>
 </segment>
@@ -18811,7 +18811,7 @@ naming: grid - package width</description>
 </net>
 <net name="PB5" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB5(SCK)"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="PB5(SCK)"/>
 <wire x1="96.52" y1="17.78" x2="99.06" y2="17.78" width="0.1524" layer="91"/>
 <label x="99.06" y="17.78" size="0.8128" layer="95"/>
 </segment>
@@ -18829,7 +18829,7 @@ naming: grid - package width</description>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD3(INT1)"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="PD3(INT1)"/>
 <wire x1="96.52" y1="45.72" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="45.72" x2="111.76" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
@@ -18838,9 +18838,9 @@ naming: grid - package width</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND@1"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="GND@1"/>
 <wire x1="48.26" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="GND@2"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="GND@2"/>
 <wire x1="48.26" y1="43.18" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="43.18" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
 </segment>
@@ -18875,7 +18875,7 @@ naming: grid - package width</description>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD1(TXD)"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="PD1(TXD)"/>
 <pinref part="TX" gate="G$1" pin="TP"/>
 <wire x1="96.52" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="50.8" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
@@ -18886,7 +18886,7 @@ naming: grid - package width</description>
 <pinref part="RA" gate="G$1" pin="2"/>
 <pinref part="RB" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="73.66" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="PC0(ADC0)"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="PC0(ADC0)"/>
 <wire x1="96.52" y1="76.2" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
 <junction x="109.22" y="76.2"/>
 </segment>
@@ -18911,7 +18911,7 @@ naming: grid - package width</description>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD4(XCK/T0)"/>
+<pinref part="ATMEGA88P" gate="G$1" pin="PD4(XCK/T0)"/>
 <wire x1="96.52" y1="43.18" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="43.18" x2="109.22" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
